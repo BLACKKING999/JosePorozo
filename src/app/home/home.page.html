@@ -1,20 +1,24 @@
 <ion-header [translucent]="true">
-  <ion-toolbar>
+  <ion-toolbar color="tertiary">
     <ion-title>
-      Blank
+      Universo
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
+<ion-content [fullscreen]="true" class="ion-padding" style="background-color: #f3f4f8;">
   <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
+    <ion-toolbar color="tertiary">
+      <ion-title size="large">¡Explora el Universo!</ion-title>
     </ion-toolbar>
   </ion-header>
 
-  <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
+  <div id="container" style="text-align: center; margin-top: 20px;">
+    <ion-icon name="planet" size="large" style="color: #a2b5cd;"></ion-icon>
+    <h1 style="font-weight: bold; color: #2d3e50;">Bienvenido a la Ciencia del Espacio 🌌</h1>
+    <p style="color: #5a6d7f; font-size: 16px;">Sumérgete en el fascinante mundo de las estrellas y planetas con componentes UI de Ionic.</p>
+    <ion-button expand="block" color="secondary" (click)="navigateTopage1()">
+      ¡Ir a la página de exploración!
+    </ion-button>
   </div>
 </ion-content>

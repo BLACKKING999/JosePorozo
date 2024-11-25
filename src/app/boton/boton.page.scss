@@ -1,0 +1,25 @@
+.universe-toolbar {
+    --background: #000000; /* Fondo oscuro como el espacio */
+    --color: #ffffff; /* Texto blanco para contraste */
+    background-image: url('assets/space-background.jpg'); /* Fondo con imagen de estrellas o espacio */
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .universe-content {
+    background-color: #1a1a1a; /* Fondo oscuro */
+    color: #fff; /* Texto en blanco */
+    background-image: url('assets/space-background.jpg'); /* Fondo con estrellas */
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .title {
+    font-family: 'Orbitron', sans-serif; /* Fuente futurista */
+    font-size: 24px;
+  }
+  
+  ion-title {
+    font-family: 'Roboto', sans-serif; /* Fuente limpia */
+  }
+  
